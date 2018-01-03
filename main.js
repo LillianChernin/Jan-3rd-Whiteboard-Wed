@@ -1,6 +1,6 @@
 // Create a list of n+1 numbers
 const initList = (n) => {
-  let result = {};
+  let result = [];
   for (let i = 0; i < n; i++) {
     result.push(i);
   }
